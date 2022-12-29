@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="shortcut icon" href="magic-ball.png">
+</head>
+<body>
+
+    <div id="PanelPrincipal">
+        <div id="MensajePrincipal">
+            <h3 id="Mensaje">Pantalla de mensaje</h3>
+        </div>
+        <div id="Cuerpo">
+            <div id="GatoIzq">
+                <img src="https://i.pinimg.com/originals/fe/e3/a7/fee3a76abad7cfae3d3a62c29c413d75.png">
+            </div>
+            <div id="Juego">
+                <div id="Contador">
+                    <h3 id="Tiradas">Nº de Tiradas: 0</h3>
+                    <h3 id="Vidas">Nº Vidas Restantes: <span id="NumVidas"></span></h3>
+                </div>
+                <div id="Cartas">
+                </div>
+            </div>
+            <div id="GatoDer">
+                <img src="https://www.freeiconspng.com/thumbs/black-cat-png/black-cat-png-8.png">
+            </div>
+        </div>
+        <Button id="Repetir" onclick="window.location.reload()">Volver a jugar</Button>
+    </div>
+
+    <script src="JavaScriptReplay/Mecanica.js"></script>
+</body>
+</html>

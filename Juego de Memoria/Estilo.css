@@ -1,0 +1,89 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#PanelPrincipal{
+    padding-top: 1%;
+}
+#Cuerpo{
+    display: flex;
+}
+#Contador{
+    display: inline-flex;
+    width: 100%;
+}
+#Tiradas{
+    width: 100%;
+}
+#Vidas{
+    width: 100%;
+}
+#GatoIzq img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+#GatoIzq{
+    width: 30%;
+    margin-top: 7%;
+}
+#GatoDer img{
+    width: 70%;
+}
+#GatoDer{
+    width: 30%;
+    margin-top: 10%;
+}
+#Cartas{
+    padding-top: 3%;
+}
+.Carta img{
+    width: 100%;
+}
+.Carta{
+    width: 18%;
+    background-image: url("Cartas/BackCard.png");
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Carta:hover{
+    transition: 0.3s;
+    transform: translateY(-15px);
+}
+#Separador{
+    margin: 0;
+}
+#Mensaje{
+    opacity: 0;
+    transition: 0.4s;
+}
+#Repetir{
+    opacity: 0;
+    background-color: black;
+    color: red;
+    border-color: red;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin-top: 1%;
+    transition: 0.7s;
+}
+#NumVidas{
+    transition: 0.4s;
+}
+.Corazones{
+    width: 20px;
+    padding-left: 0.5%;
+    transition: 0.4s;
+    animation: Opacidad 0.5s;
+}
+@keyframes Opacidad { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
